@@ -58,7 +58,7 @@ def main():
 
   while True:
     for i, lamp in enumerate(lamps):
-      lamp.set(ct=random.randint(154, 500), on=True)
+      lamp.set(sat=254, hue=random.randint(0, 65535), on=True)
     time.sleep(1)
 
 if __name__ == '__main__':
